@@ -13,6 +13,7 @@
 body {
     background-color: var(--preta);
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 header .title-netflix {
@@ -23,8 +24,7 @@ header .title-netflix {
     letter-spacing: 2px;
 }
 
-header .container {
-    
+header .container { 
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,4 +39,21 @@ header nav a {
 
 header nav a:hover {
     color: white;
+}
+
+.conteudo {
+    font-size: 50px;
+}
+
+.conteudo-pricipal {
+    font-size: 16px;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5) 100%), url("../img/capa-pricipal.jpg");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-pricipal .buttons {
+    margin-top: 40px;
 }
